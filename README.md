@@ -1,6 +1,6 @@
 # Pinata API Calls
 This is a quick repo that allows users to quick start testing the most popular Pinata API calls! 
-
+ 
 You will need to have node.js installed. Once you clone this repo run:
 
 ```npm install```
