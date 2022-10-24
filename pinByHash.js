@@ -8,7 +8,7 @@ const pinFileToIPFS = async () => {
       "pinataMetadata": {
         "name": "testing",
         "keyvalues": {
-          "customKey": "customValue",
+          "customKey": "customValue1",
           "customKey2": "customValue2"
         }
       }
