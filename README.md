@@ -1,14 +1,21 @@
 # Pinata API Calls
 This is a quick repo that allows users to quick start testing the most popular Pinata API calls! 
- 
-You will need to have node.js installed. Once you clone this repo run:
 
-```npm install```
+## Installation and Setup
+You will need to have node.js installed. Next clone the repo and install the dependencies.
 
-After that, make sure to create a .env file and add in your [Pinata API JWT](https://knowledge.pinata.cloud/en/articles/6191471-how-to-create-an-pinata-api-key) with the format below:
+```git clone https://github.com/stevedsimkins/pinata-api-calls && npm install```
 
-```PINATA_JWT=PASTE_IN_YOUR_PINATA_JWT```
+After that, cd into the directory and create a .env file in the root of the folder:
 
-From there you can try the first call in the terminal using ```node testAuthentication.js```
+```cd pinata-api-calls && touch .env```
+
+Open the .env file and add in your [Pinata API JWT](https://knowledge.pinata.cloud/en/articles/6191471-how-to-create-an-pinata-api-key) with the format below:
+
+```PINATA_JWT=REPLACE_THIS_WITH_YOUR_PINATA_JWT```
+
+## Test it! 
+
+From there you can try the first call in the terminal using ```node testAuthentication.js```. After that you can open any of the API calls, make adjustments and use ```node name_of_file.js``` to run the API command!
 
 If you have any questions please send an email to [team@pinata.cloud](mailto:team@pinata.cloud)!
