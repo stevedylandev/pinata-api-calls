@@ -4,11 +4,11 @@ This is a quick repo that allows users to quick start testing the most popular P
 ## Installation and Setup
 You will need to have node.js installed. Next clone the repo and install the dependencies.
 
-```git clone https://github.com/stevedsimkins/pinata-api-calls && npm install```
+```git clone https://github.com/stevedsimkins/pinata-api-calls && cd pinata-api-calls && npm install```
 
 After that, cd into the directory and create a .env file in the root of the folder:
 
-```cd pinata-api-calls && touch .env```
+```touch .env```
 
 Open the .env file and add in your [Pinata API JWT](https://knowledge.pinata.cloud/en/articles/6191471-how-to-create-an-pinata-api-key) with the format below:
 
